@@ -32,7 +32,9 @@ const PostList: React.FC = () => {
       <div className="text-lg font-bold text-center mt-10">Loading...</div>
     );
   if (error)
-    return <div className="text-lg font-bold text-center">Error: {error}</div>;
+    return (
+      <div className="text-lg font-bold text-center mt-10">Error: {error}</div>
+    );
 
   return (
     <>

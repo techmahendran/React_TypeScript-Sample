@@ -8,6 +8,9 @@ module.exports = {
           light: "#faf8f8",
           navbar: "#1f2937",
         },
+        backdropFilter: {
+          "custom-blur": "saturate(180%) blur(5px)",
+        },
       },
     },
   },
