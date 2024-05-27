@@ -1,9 +1,12 @@
-import Header from "./components/Header.tsx";
+import React from "react";
+import Navbar from "./components/navbar/navbar.tsx";
+import PostList from "./components/postList/postList.tsx";
 
 function App() {
   return (
     <>
-      <Header title="Hello World" color="red" align="center" />
+      <Navbar />
+      <PostList />
     </>
   );
 }
